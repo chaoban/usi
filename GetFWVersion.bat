@@ -1,3 +1,0 @@
-USIWR.exe -w=0x6d 0x01
-USIWR.exe -r=0x6a 14
-pause
