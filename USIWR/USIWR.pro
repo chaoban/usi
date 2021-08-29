@@ -57,9 +57,9 @@ win32:HEADERS += \
 linux:HEADERS +=
 
 win32:INCLUDEPATH += $$PWD/search
-win32:LIBS += -L$$PWD/ -lhid -lsetupapi
+win32:LIBS += -L$$PWD/ -lhid -lsetupapi -lAdvapi32
 
-win32: LIBS += "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\um\x64\setupapi.lib"
-win32: LIBS += "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\um\x64\hid.lib"
-win32: LIBS += "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\um\x64\Advapi32.lib"
+#win32: LIBS += "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\um\x64\setupapi.lib"
+#win32: LIBS += "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\um\x64\hid.lib"
+#win32: LIBS += "C:\Program Files (x86)\Windows Kits\10\Lib\10.0.19041.0\um\x64\Advapi32.lib"
 
